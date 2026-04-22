@@ -1,0 +1,76 @@
+body {
+    background-color: gray;
+    color: black;
+    background: linear-gradient(180deg, #2c3e50 0%, #000000 100%);
+    background-attachment: fixed;
+    background-attachment: fixed
+    min-height: 100vh;
+    height: auto;
+}
+
+
+.titulo{
+    margin: auto;
+    margin-left: 80px;
+    margin-top: 20px;
+    border: solid black;
+    margin-right: 80px;
+    background-color: white;
+    text-align: center;
+}
+
+
+.musica {
+    width: 250px;
+    height: 250px;
+    border: solid black 2px;
+    display: inline-block;
+    margin: auto;
+    border-radius: 50px;
+    text-align: center;
+    margin-right: 25px;
+    color: black;
+    margin-top: 5px;
+    align-items: center;
+} 
+
+.musica audio {
+    width: 240px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.musica img {
+    width: 200px;
+    height: 100px;
+    margin-left: 0%;
+    border: solid black;
+    margin-top: 25px;
+}
+
+.button {
+    width: 260px;
+    height: 260px;
+    border-radius: 50px;
+    margin-left: 85px;
+    margin-top: 40px;
+    display: inline-block;
+    transition: 0.5s;
+    background-size: 200%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: solid black 2px;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.55);
+    transform: translateY(-5px) scale(1.15);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+h1 {
+    font-family: 'Nunito', sans-serif;
+}
